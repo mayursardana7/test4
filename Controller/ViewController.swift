@@ -51,6 +51,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func btnStepperTapped(_ sender: UIStepper) {
         print(Int(btnStepper.value))
+        print("Hello testing")
     }
     
     @IBAction func btnSaveTapped(_ sender: UIButton) {
